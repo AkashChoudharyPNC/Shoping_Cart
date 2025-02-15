@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div id="logo">Pnc Shop</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <div class="cart-icon" onclick="toggleCart()">
+                            🛒 <span id="cart-count">0</span>
+                        </div>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <h1>Welcome to our Shop!</h1>
+            <p>
+                Here you can find all the products you need.
+            </p>
+        </div>
+    </section>
+
+    <section class="products" id="product-list">
+        <!-- Products will be loaded here dynamically -->
+    </section>
+    
+    <div class="cart" id="cart">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart" onclick="toggleCart()">✖</button>
+        </div>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+        <button onclick="clearCart()">Empty Cart</button>
+    </div>
+
+    <script src = scripts.js></script>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We provide the best quality products at the best prices.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: support@shop.com</p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+        </div>
+        <p class="footer-bottom">&copy; 2025 Shop. All rights reserved.</p>
+    </footer>
+    
+
+
+</body>
+
+</html>

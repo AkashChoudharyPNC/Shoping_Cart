@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone",
+        "price": 699,
+        "image": "https://iplanet.one/cdn/shop/files/iPhone_16_Ultramarine_PDP_Image_Position_1__en-US.webp?v=1726214001&width=550"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "price": 1199,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2r1MF3qX6iJbQgze2-oq6PgiVSNkitcxwhg&s"
+    },
+    {
+        "id": 3,
+        "name": "Headphones",
+        "price": 199,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY535OIWyqaRm-t0uIJlTwDIE8ZJa3kdONow&s"
+    },
+    {
+        "id": 4,
+        "name": "Smartwatch",
+        "price": 249,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJKfKcZABTpoDTbmKUil6EQMbV4FIWjqnZMg&s"
+    },
+    {
+        "id": 5,
+        "name": "Tablet",
+        "price": 499,
+        "image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/ipad-10th-gen-finish-select-202212-pink-wificell_AV1_GEO_EMEA_FMT_WHH?wid=1280&hei=720&fmt=p-jpg&qlt=80&.v=OVJOVlhQelp3cUxDNnpBK0hFNFYrQUxaUVVtOUhUT0c2NzZRUllPeEJTeUhIODdIektheGs0eUF4UlF0a3FSWWdMZmJlZVZ1bmFnMjI5QmdNOXlZMWJvNVA5M0N2RTZaVllVQ29BYjdEajVWNy95K3R5Z0ViUlNhbGFIaXlxb2JaUzVxbXhnbFRwdUlJSm1hOVExazBTVFVidXZqK3Z0ZTZhNm5BSWE5bFRz&traceId=1"
+    },
+    {
+        "id": 6,
+        "name": "Mouse",
+        "price": 79,
+        "image": "https://m.media-amazon.com/images/I/51LyDSkeJ9L.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Keyboard",
+        "price": 149,
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MXCL3?wid=2000&hei=2000&fmt=jpeg&qlt=95&.v=1728939673942"
+    },
+    {
+        "id": 8,
+        "name": "Wireless Earbuds",
+        "price": 129,
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/airpods-pro-compare-202409_FMT_WHH?wid=286&hei=324&fmt=jpeg&qlt=90&.v=1723594294397"
+    },
+    {
+        "id": 9,
+        "name": "Bluetooth Speaker",
+        "price": 89,
+        "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MW463?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1716251412721"
+    },
+    {
+        "id": 10,
+        "name": "External Hard Drive",
+        "price": 159,
+        "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/HRHG2_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1715640575396"
+    }
+]
